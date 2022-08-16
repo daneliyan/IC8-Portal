@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>IC8 Portal</title>
+  <link rel="preload" href="fonts/MontserratThin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratExtraLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratBlack.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__container">
+    <a class="logo" href="index.html">
+      <img loading="lazy" src="img/logo.svg" class="image" alt="Логотип" width="79" height="48">
+    </a>
+    <nav class="nav" data-menu>
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="about.html" class="nav__link">О компании</a></li>
+        <li class="nav__item"><a href="news.html" class="nav__link">Новости</a></li>
+        <li class="nav__item"><a href="vacancy.html" class="nav__link">Вакансии</a></li>
+        <li class="nav__item"><a href="documents.html" class="nav__link">Документы</a></li>
+        <li class="nav__item"><a href="structure.html" class="nav__link">Структура</a></li>
+        <li class="nav__item"><a href="search.html" class="nav__link active">Поиск</a></li>
+      </ul>
+    </nav>
+    <a href="profile.html" class="header__profile">
+      <img loading="lazy" src="img/header/avatar.jpg" alt="Аватар" width="38" height="38">
+      <div class="header__name">Александр</div>
+    </a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="search">
+  <div class="container">
+    <nav class="breadcrumb">
+      <p>
+        <a href="index.html">Главная</a>
+        <span> · </span>
+        <span class="active">Поиск</span>
+      </p>
+    </nav>
+    <h1>Введите запрос</h1>
+    <form action="#" class="search__form">
+      <input type="text" value="РП-001-1 Организация предоставления информации" class="search__input form-input deletable">
+      <button type="button" class="btn-reset search__btn form-btn">Найти</button>
+    </form>
+    <p class="empty">По вашему запросу ничего не найдено</p>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <a class="footer__logo" href="index.html">
+      <img loading="lazy" src="img/footer-logo.svg" class="image" alt="Логотип" width="98" height="60">
+    </a>
+  </div>
+</footer>
+
+  </div>
+
+</body>
+
+</html>
