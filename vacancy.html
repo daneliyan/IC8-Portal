@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>IC8 Portal</title>
+  <link rel="preload" href="fonts/MontserratThin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratExtraLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/MontserratBlack.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__container">
+    <a class="logo" href="index.html">
+      <img loading="lazy" src="img/logo.svg" class="image" alt="Логотип" width="79" height="48">
+    </a>
+    <nav class="nav" data-menu>
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="about.html" class="nav__link">О компании</a></li>
+        <li class="nav__item"><a href="news.html" class="nav__link">Новости</a></li>
+        <li class="nav__item"><a href="vacancy.html" class="nav__link active">Вакансии</a></li>
+        <li class="nav__item"><a href="documents.html" class="nav__link">Документы</a></li>
+        <li class="nav__item"><a href="structure.html" class="nav__link">Структура</a></li>
+        <li class="nav__item"><a href="search.html" class="nav__link">Поиск</a></li>
+      </ul>
+    </nav>
+    <a href="profile.html" class="header__profile">
+      <img loading="lazy" src="img/header/avatar.jpg" alt="Аватар" width="38" height="38">
+      <div class="header__name">Александр</div>
+    </a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="page-vacancy">
+  <div class="container">
+    <nav class="breadcrumb">
+      <p>
+        <a href="index.html">Главная</a>
+        <span> · </span>
+        <span class="active">Все вакансии</span>
+      </p>
+    </nav>
+
+    <div class="row">
+      <h1 class="title2">Все вакансии</h1>
+      <nav class="sort">
+        <ul class="list-reset sort__list">
+          <li class="sort__item">
+            <button class="btn-reset sort__btn">
+              Сортировать
+              <i class="icons _icon-Options"></i>
+            </button>
+            <div class="dropdown">
+              <div class="dropdown__list">
+                <button class="btn-reset dropdown__btn" data-filter="web-designer" tabindex="-1">Web-дизайнер</button>
+                <button class="btn-reset dropdown__btn" data-filter="electrik" tabindex="-2">Электрик</button>
+                <button class="btn-reset dropdown__btn" data-filter="sborshik" tabindex="-3">Сборщик мебели на общий склад материалов</button>
+                <button class="btn-reset dropdown__btn" data-filter="buhgalter" tabindex="-4">Бухгалтер</button>
+                <button class="btn-reset dropdown__btn" data-filter="programmist" tabindex="-5">Программист</button>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="cards">
+      <div class="card web-designer">
+        <a href="vacancy-article.html">
+          <h3 class="title">Web-дизайнер</h3>
+          <div class="pay">от 50000 ₽ до 80000 ₽</div>
+          <div class="info">полный рабочий день</div>
+          <div class="experience">более 3 лет опыта</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card electrik">
+        <a href="vacancy-article.html">
+          <h3 class="title">Электрик</h3>
+          <div class="pay">от 35000 ₽ до 65000 ₽</div>
+          <div class="info">частичная занятость, полный рабочий день</div>
+          <div class="experience">2 года опыта</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card sborshik">
+        <a href="vacancy-article.html">
+          <h3 class="title">Сборщик мебели на общий склад материалов</h3>
+          <div class="pay">не указано</div>
+          <div class="info">полный рабочий день</div>
+          <div class="experience">не указано</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card buhgalter">
+        <a href="vacancy-article.html">
+          <h3 class="title">Электрик</h3>
+          <div class="pay">от 34000 ₽</div>
+          <div class="info">полный рабочий день удалённо</div>
+          <div class="experience">> 1 лет опыта</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card web-designer">
+        <a href="vacancy-article.html">
+          <h3 class="title">Web-дизайнер</h3>
+          <div class="pay">от 50000 ₽ до 80000 ₽</div>
+          <div class="info">полный рабочий день</div>
+          <div class="experience">более 3 лет опыта</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card electrik">
+        <a href="vacancy-article.html">
+          <h3 class="title">Электрик</h3>
+          <div class="pay">от 35000 ₽ до 65000 ₽</div>
+          <div class="info">частичная занятость, полный рабочий день</div>
+          <div class="experience">2 года опыта</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card sborshik">
+        <a href="vacancy-article.html">
+          <h3 class="title">Сборщик мебели на общий склад материалов</h3>
+          <div class="pay">не указано</div>
+          <div class="info">полный рабочий день</div>
+          <div class="experience">не указано</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+      <div class="card buhgalter">
+        <a href="vacancy-article.html">
+          <h3 class="title">Электрик</h3>
+          <div class="pay">от 34000 ₽</div>
+          <div class="info">полный рабочий день удалённо</div>
+          <div class="experience">> 1 лет опыта</div>
+          <i class="icons _icon-ChevronRight"></i>
+        </a>
+      </div>
+    </div>
+    <ul class="list-reset pagination">
+      <li><a href="#" class="arrow"><i class="icons _icon-ChevronLeft"></i></a></li>
+      <li><a href="#" class="active">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">…</a></li>
+      <li><a href="#">13</a></li>
+      <li><a href="#" class="arrow"><i class="icons _icon-ChevronRight"></i></a></li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <a class="logo" href="index.html">
+      <img loading="lazy" src="img/footer-logo.svg" class="image" alt="Логотип" width="98" height="60">
+    </a>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
